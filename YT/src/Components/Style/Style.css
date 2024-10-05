@@ -135,13 +135,15 @@ body
 {
      height: 730px;
      width: 100%;
-     background-color: rebeccapurple;
+     /* background-color: rebeccapurple; */
      position: absolute;
      top: 0px;
      display: flex;
      flex-wrap: wrap;
      z-index: 0;
 }
+
+
 
 
 /* Styling the main Content Container Ends */

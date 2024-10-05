@@ -9,6 +9,8 @@
           cursor: pointer;
      }
 }
+
+
 .video-wrapper
 {
      height: 210;
@@ -18,4 +20,34 @@
      flex-direction: row;
      justify-content: center;
      align-items: center;
+}
+
+.video-title {
+     color: black;
+     position: absolute;
+     margin-top: 17%;
+     margin-left: -10%;
+ }
+
+
+ .channel-logo-container
+ {
+     height: 50px;
+     width: 50px;
+     background-color: black;
+     position: relative;
+     top: 157px;
+     left: 0;
+ }
+
+
+.Cicon
+{
+     height: 50px;
+     width: 50px;
+     object-fit: cover;
+     position: relative;
+     top: 0px;
+     left: 0px;
+     z-index: 99;
 }

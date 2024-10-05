@@ -66,14 +66,14 @@ function Home() {
 
 
      <div className="content-container">
-          <Video src={one} poster={akatsuki} />
-          <Video src={two} poster={cute} />
-          <Video src={three} poster={itachi} />
-          <Video src={four} poster={rengoku} />
-          <Video src={five} poster={rengoku_basic} />
-          <Video src={six} poster={madara} />
-          <Video src={seven} poster={naruto} />
-          <Video src={seven} poster={naruto} />
+          <Video  src={one} CIcon={akatsuki} poster={akatsuki} />
+          <Video  src={two} CIcon={cute} poster={cute} />
+          <Video  src={three} CIcon={itachi} poster={itachi} />
+          <Video  src={four} CIcon={rengoku} poster={rengoku} />
+          <Video  src={five} CIcon={rengoku_basic} poster={rengoku_basic} />
+          <Video  src={six} CIcon={madara} poster={madara} />
+          <Video  src={seven} CIcon={naruto} poster={naruto} />
+          <Video  src={seven} CIcon={naruto} poster={naruto} />
           {/* <Video /> */}
      </div>
 
