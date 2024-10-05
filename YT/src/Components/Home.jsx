@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Style/Style.css'
 // importing Images
-import home from './Icons/home.jpg'
+import home from './Icons/home.png'
 import shorts from './Icons/shorts.png'
 import subscription from './Icons/subscription.png'
 import you from './Icons/you.png'
@@ -26,7 +26,7 @@ import naruto from './Images/naruto.jpg'
 
 
 function Home() {
-     const [nav , setnav]=useState(true);
+     const [nav , setnav]=useState(false);
      function handleClick() {
           setnav(!nav);
      }

@@ -1,18 +1,21 @@
 .videos 
 {
      height: 195px;
-     width: 320px;
-     margin-left: 50px;
+     width: 975px;
+     border-radius: 10px;
+     object-fit: cover;
+     &:hover
+     {
+          cursor: pointer;
+     }
 }
-
-
-/* .videos::-webkit-media-controls 
+.video-wrapper
 {
-     display: none;
-} */
-
-
-.videowrapper:hover
-{
-     cursor: pointer;
+     height: 210;
+     width: 375px;
+     border: 1px solid red;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
 }

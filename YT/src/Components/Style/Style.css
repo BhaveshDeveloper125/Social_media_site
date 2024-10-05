@@ -24,7 +24,10 @@ body
      width: 40px;
      border: 1px solid transparent;
      border-radius: 40%;
+     position: absolute;
+     margin-bottom: 20px;
      transition-duration: 0.5s;
+     z-index: 100;
      &:hover
      {
           background-color: rgba(175, 172, 172, 0.342);
@@ -34,6 +37,13 @@ body
           background-color: rgb(46, 46, 46);
      }
 }
+
+.main-menu {
+     height: 700px;
+     width: 250px;
+     background-color: whitesmoke;
+     margin-left: -10px;
+ }
 
 
 .main-menu  span
@@ -92,6 +102,8 @@ body
 
 .show_menu
 {
+     /* background-color: whitesmoke; */
+     color: black;
      position: relative;
      left: 10px;
      height: fit-content;
@@ -103,8 +115,10 @@ body
 
 .hide_menu
 {
+     /* background-color: whitesmoke; */
+     color: black;
      position: relative;
-     left: -200px;
+     left: -300px;
      height: fit-content;
      width: 130px;
      transition-duration: 1s;
@@ -119,11 +133,11 @@ body
 
 .content-container
 {
-     height: 640px;
+     height: 730px;
      width: 100%;
      background-color: rebeccapurple;
-     position: relative;
-     top: -220px;
+     position: absolute;
+     top: 0px;
      display: flex;
      flex-wrap: wrap;
      z-index: 0;
