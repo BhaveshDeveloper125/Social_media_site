@@ -1,0 +1,18 @@
+.videos 
+{
+     height: 195px;
+     width: 320px;
+     margin-left: 50px;
+}
+
+
+/* .videos::-webkit-media-controls 
+{
+     display: none;
+} */
+
+
+.videowrapper:hover
+{
+     cursor: pointer;
+}
