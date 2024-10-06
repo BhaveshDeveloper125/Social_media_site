@@ -33,53 +33,48 @@ function Home() {
   return (
     <>
                                                                            {/* Conding for menu starts */}
-          <div className="menu" onClick={handleClick}>
-               <div className='lines'></div>
-               <div className='lines'></div>
-               <div className='lines'></div>
-          </div>
-          <br /><br />
-     <div className={nav ? 'show_menu' : 'hide_menu' }>
-          <div className="main-menu">
-               <div className="menu-list">
-                    <img src={home} className='icons' alt="" />
-                    <span> Home </span>
+          <div className="container">
+               <div className="menu" onClick={handleClick}>
+                    <div className='lines'></div>
+                    <div className='lines'></div>
+                    <div className='lines'></div>
                </div>
-               <div className="menu-list">
-                    <img src={shorts} className='icons' alt="" />
-                    <span> Shorts </span>
+                    <br /><br />
+               <div className={nav ? 'show_menu' : 'hide_menu' }>
+                    <div className="main-menu">
+                         <div className="menu-list">
+                              <img src={home} className='icons' alt="" />
+                              <span> Home </span>
+                         </div>
+                         <div className="menu-list">
+                              <img src={shorts} className='icons' alt="" />
+                              <span> Shorts </span>
+                         </div>
+                         <div className="menu-list">
+                              <img src={subscription} className='icons' alt="" />
+                              <span> Subs </span>
+                         </div>
+                         <div className="menu-list">
+                              <img src={you} className='icons' alt="" />
+                              <span> You </span>
+                         </div>
+                    </div>
                </div>
-               <div className="menu-list">
-                    <img src={subscription} className='icons' alt="" />
-                    <span> Subs </span>
-               </div>
-                    <div className="menu-list">
-                    <img src={you} className='icons' alt="" />
-               <span> You </span>
-               </div>
-          </div>
-     </div>
                                                                                 {/* Conding for menu ends */}
-
-
+               
                                                                                 {/* Conding for Main Content Page starts */}
-
-
-     <div className="content-container">
-          <Video  src={one} CIcon={akatsuki} poster={akatsuki} />
-          <Video  src={two} CIcon={cute} poster={cute} />
-          <Video  src={three} CIcon={itachi} poster={itachi} />
-          <Video  src={four} CIcon={rengoku} poster={rengoku} />
-          <Video  src={five} CIcon={rengoku_basic} poster={rengoku_basic} />
-          <Video  src={six} CIcon={madara} poster={madara} />
-          <Video  src={seven} CIcon={naruto} poster={naruto} />
-          <Video  src={seven} CIcon={naruto} poster={naruto} />
-          {/* <Video /> */}
-     </div>
-
-
+               <div className="content-container">
+                  <Video  src={one} CIcon={akatsuki} poster={akatsuki} />
+                  <Video  src={two} CIcon={cute} poster={cute} />
+                  <Video  src={three} CIcon={itachi} poster={itachi} />
+                  <Video  src={four} CIcon={rengoku} poster={rengoku} />
+                  <Video  src={five} CIcon={rengoku_basic} poster={rengoku_basic} />
+                  <Video  src={six} CIcon={madara} poster={madara} />
+                  <Video  src={seven} CIcon={naruto} poster={naruto} />
+                  <Video  src={seven} CIcon={naruto} poster={naruto} />
+               </div>
                                                                                 {/* Conding for Main Content Page starts */}
-
+          </div>
     </>
   )
 }
