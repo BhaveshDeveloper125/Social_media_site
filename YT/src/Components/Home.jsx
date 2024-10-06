@@ -45,14 +45,15 @@ function Home() {
                     <div className='lines'></div>
                </div>
                <img src={youtube} alt="logo" className='logo' />
+
                     <form action="" method="post">
                          <input type="search" name="" id="search-bar" placeholder='Search' required/>
-                         <button type='submit' className='submit-btn'> Search  </button>
-                         {/* <img src={search} alt="" /> */}
+                         <button type='submit' className='submit-btn'> <img src={search} alt="" className='submit-logo'/>  </button>
                     </form>
 
 
                </div>
+                         <div className="items"></div>
 
                     <br /><br />
                     
@@ -80,6 +81,14 @@ function Home() {
                
                                                                                 {/* Conding for Main Content Page starts */}
                <div className="content-container">
+                  <Video  src={one} CIcon={akatsuki} poster={akatsuki} />
+                  <Video  src={two} CIcon={cute} poster={cute} />
+                  <Video  src={three} CIcon={itachi} poster={itachi} />
+                  <Video  src={four} CIcon={rengoku} poster={rengoku} />
+                  <Video  src={five} CIcon={rengoku_basic} poster={rengoku_basic} />
+                  <Video  src={six} CIcon={madara} poster={madara} />
+                  <Video  src={seven} CIcon={naruto} poster={naruto} />
+                  <Video  src={seven} CIcon={naruto} poster={naruto} />
                   <Video  src={one} CIcon={akatsuki} poster={akatsuki} />
                   <Video  src={two} CIcon={cute} poster={cute} />
                   <Video  src={three} CIcon={itachi} poster={itachi} />

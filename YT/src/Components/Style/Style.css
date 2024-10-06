@@ -159,7 +159,19 @@ body
 .search-container
 {
      height: 60px;
-     background-color: brown;
+     /* background-color: brown; */
+}
+
+
+.items
+{
+     height: 60px;
+     width: 315px;
+     /* background-color: black; */
+     border: 1px solid black;
+     position: relative;
+     top: -60px;
+     left: 1200px;
 }
 
 
@@ -167,16 +179,33 @@ body
 {
      height: 40px;
      width: 700px;
-     border-radius: 100px;
+     border: 1px solid transparent;
+     border-top-left-radius: 70px;
+     border-bottom-left-radius: 70px;
+     /* border-radius: 100px; */
      margin-left: 370px;
      position: relative;
-     top: -45px;
+     top: -60px;
 }
 
 
-#submit-btn
+.submit-btn
 {
-     height: 50px;
-     width: 50px;
-     background-color: black;
+     height: 40px;
+     width: 65px;
+     border: 1px solid transparent;
+     border-top-right-radius: 70px;
+     border-bottom-right-radius: 70px;
+     position: relative;
+     top: -50px;
+     cursor: pointer;
+}
+
+
+.submit-logo
+{
+     height: 30px;
+     width: 30px;
+     border: 1px solid transparent;
+     object-fit: cover;
 }
