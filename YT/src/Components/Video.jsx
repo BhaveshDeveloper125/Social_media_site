@@ -18,7 +18,13 @@ function Video(prop)
         </div>
 
         <div className="title-container">
-          <h3 className='video-title'> Video Title </h3>
+          <h3 className='video-title'> Video TitleVideo TitleVideo TitleVideo TitleVideo TitleVideo</h3> 
+          {/* <div className="channel-name-container"> */}
+            <h4 className='channel-name-container'>abcd</h4>
+          {/* </div> */}
+          {/* <div className="time-view-shower"> */}
+            <h5 className='time-view-shower'>1M view . 1 hour ago</h5>
+          {/* </div> */}
         </div>
       </div>
 

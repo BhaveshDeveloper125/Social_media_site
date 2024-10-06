@@ -1,7 +1,7 @@
 .videos 
 {
      height: 195px;
-     width: 360px;
+     width: 375px;
      border-radius: 10px;
      object-fit: cover;
      &:hover
@@ -12,6 +12,8 @@
 
 .video-container
 {
+     height: 280px;
+     width: 375px;
      border: 1px solid red;
 }
 
@@ -21,11 +23,11 @@
      height: 120px;
      width: 360px;
      display: flex;
- }
+}
 
 
- .logo-container 
- {
+.logo-container 
+{
      height: 80px;
      width: 80px;
      border: 1px solid black;
@@ -33,21 +35,43 @@
      flex-direction: row;
      justify-content: center;
      align-items: center;
- }
+}
 
 
- .title-container 
- {
-     height: 120px;
+.title-container 
+{
+     height: 80px;
      width: 275px;
      border: 1px solid black;
- }
+     margin-left: 20px;
+}
+
+
+.video-title
+{
+     margin-top: -1px;
+}
 
 
 .Cicon
 {
      height: 70px;
      width: 70px;
+     border-radius: 50%;
      background-color: black;
      object-fit: cover;
+}
+
+
+.channel-name-container
+{
+     color: gray;
+     margin-top: -20px;
+}
+
+
+.time-view-shower
+{
+     color: gray;
+     margin-top: -20px;
 }

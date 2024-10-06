@@ -5,6 +5,9 @@ import home from './Icons/home.png'
 import shorts from './Icons/shorts.png'
 import subscription from './Icons/subscription.png'
 import you from './Icons/you.png'
+import youtube from './Icons/Logo_of_YouTube.svg.png'
+import search from './Icons/search.png'
+
 // Importing components
 import Video from './Video'
 // Importing the Videos
@@ -27,19 +30,32 @@ import naruto from './Images/naruto.jpg'
 
 function Home() {
      const [nav , setnav]=useState(false);
-     function handleClick() {
+     function handleClick() 
+     {
           setnav(!nav);
      }
   return (
     <>
                                                                            {/* Conding for menu starts */}
           <div className="container">
+               <div className="search-container">
                <div className="menu" onClick={handleClick}>
                     <div className='lines'></div>
                     <div className='lines'></div>
                     <div className='lines'></div>
                </div>
+               <img src={youtube} alt="logo" className='logo' />
+                    <form action="" method="post">
+                         <input type="search" name="" id="search-bar" placeholder='Search' required/>
+                         <button type='submit' className='submit-btn'> Search  </button>
+                         {/* <img src={search} alt="" /> */}
+                    </form>
+
+
+               </div>
+
                     <br /><br />
+                    
                <div className={nav ? 'show_menu' : 'hide_menu' }>
                     <div className="main-menu">
                          <div className="menu-list">
