@@ -14,7 +14,9 @@
 {
      height: 280px;
      width: 375px;
-     border: 1px solid red;
+     margin-left:4px;
+     margin-bottom: 50px;
+     /* border: 1px solid red; */
 }
 
 
@@ -30,7 +32,7 @@
 {
      height: 80px;
      width: 80px;
-     border: 1px solid black;
+     /* border: 1px solid black; */
      display: flex;
      flex-direction: row;
      justify-content: center;
@@ -42,7 +44,7 @@
 {
      height: 80px;
      width: 275px;
-     border: 1px solid black;
+     /* border: 1px solid black; */
      margin-left: 20px;
 }
 
@@ -58,7 +60,7 @@
      height: 70px;
      width: 70px;
      border-radius: 50%;
-     background-color: black;
+     /* background-color: black; */
      object-fit: cover;
 }
 

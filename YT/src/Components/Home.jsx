@@ -5,6 +5,7 @@ import home from './Icons/home.png'
 import shorts from './Icons/shorts.png'
 import subscription from './Icons/subscription.png'
 import you from './Icons/you.png'
+// importing icons
 import youtube from './Icons/Logo_of_YouTube.svg.png'
 import search from './Icons/search.png'
 import upload from './Icons/upload.png'
@@ -13,6 +14,8 @@ import profile from './Icons/profile.png'
 
 // Importing components
 import Video from './Video'
+import Searching from './Searching'
+
 // Importing the Videos
 import one from './Videos/1.mp4'
 import two from './Videos/2.mp4'
@@ -21,6 +24,7 @@ import four from './Videos/4.mp4'
 import five from './Videos/5.mp4'
 import six from './Videos/6.mp4'
 import seven from './Videos/7.mp4'
+
 // importing the thumbnails
 import akatsuki from './Images/akatsuki.jpg'
 import cute from './Images/cute.jpg'
@@ -41,13 +45,14 @@ function Home() {
     <>
                                                                            {/* Conding for menu starts */}
           <div className="container">
-               <div className="search-container">
-               <div className="menu" onClick={handleClick}>
+               <Searching />
+          {/* {/* <div className="search-container"> */}
+               {/* <div className="menu" onClick={handleClick}>
                     <div className='lines'></div>
                     <div className='lines'></div>
                     <div className='lines'></div>
-               </div>
-               <img src={youtube} alt="logo" className='logo' />
+               </div> */}
+               {/* <img src={youtube} alt="logo" className='logo' />
 
                     <form action="" method="post" id='search-bar'>
                          <input type="search" name="" id="" placeholder='Search' required/>
@@ -66,11 +71,11 @@ function Home() {
                               <div className="for-user" >
                                    <img src={profile} id='profile' alt="" />
                               </div>
-                         </div>
+                          </div>  */} 
 
                     <br /><br />
                     
-               <div className={nav ? 'show_menu' : 'hide_menu' }>
+               {/* <div className={nav ? 'show_menu' : 'hide_menu' }>
                     <div className="main-menu">
                          <div className="menu-list">
                               <img src={home} className='icons' alt="" />
@@ -89,7 +94,7 @@ function Home() {
                               <span> You </span>
                          </div>
                     </div>
-               </div>
+               </div> */}
                                                                                 {/* Conding for menu ends */}
                
                                                                                 {/* Conding for Main Content Page starts */}
