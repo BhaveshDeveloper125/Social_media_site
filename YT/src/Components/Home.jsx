@@ -7,6 +7,9 @@ import subscription from './Icons/subscription.png'
 import you from './Icons/you.png'
 import youtube from './Icons/Logo_of_YouTube.svg.png'
 import search from './Icons/search.png'
+import upload from './Icons/upload.png'
+import notification from './Icons/notification.png'
+import profile from './Icons/profile.png'
 
 // Importing components
 import Video from './Video'
@@ -46,14 +49,24 @@ function Home() {
                </div>
                <img src={youtube} alt="logo" className='logo' />
 
-                    <form action="" method="post">
-                         <input type="search" name="" id="search-bar" placeholder='Search' required/>
+                    <form action="" method="post" id='search-bar'>
+                         <input type="search" name="" id="" placeholder='Search' required/>
                          <button type='submit' className='submit-btn'> <img src={search} alt="" className='submit-logo'/>  </button>
                     </form>
 
 
                </div>
-                         <div className="items"></div>
+                         <div className="items">
+                              <div className="for-user">
+                                   <img src={upload} alt="" id='camera' />
+                              </div>
+                              <div className="for-user" >
+                                   <img src={notification} id='notification' alt="" />
+                              </div>
+                              <div className="for-user" >
+                                   <img src={profile} id='profile' alt="" />
+                              </div>
+                         </div>
 
                     <br /><br />
                     
