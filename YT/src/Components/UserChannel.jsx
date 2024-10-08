@@ -43,10 +43,6 @@ function UserChannel()
           </ul>
         </div>
       </div>
-
-
-
-
     </div>
   )
 }
