@@ -21,7 +21,6 @@ function Searching()
      {
           setshow(!show);
           console.log(show);
-          
      }
   return (
     <div>
@@ -77,6 +76,7 @@ function Searching()
                          </li>
                     </div>
                     <br />
+                    <hr />
                     <div className="li-tag">
                          <li className='li-tag'>
                               <img src={you} id='youIcon' alt="You" />

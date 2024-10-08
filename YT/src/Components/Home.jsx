@@ -1,16 +1,5 @@
 import React, { useState } from 'react'
 import './Style/Style.css'
-// importing Images
-import home from './Icons/home.png'
-import shorts from './Icons/shorts.png'
-import subscription from './Icons/subscription.png'
-import you from './Icons/you.png'
-// importing icons
-import youtube from './Icons/Logo_of_YouTube.svg.png'
-import search from './Icons/search.png'
-import upload from './Icons/upload.png'
-import notification from './Icons/notification.png'
-import profile from './Icons/profile.png'
 
 // Importing components
 import Video from './Video'
@@ -43,60 +32,11 @@ function Home() {
      }
   return (
     <>
-                                                                           {/* Conding for menu starts */}
           <div className="container">
                <Searching />
-          {/* {/* <div className="search-container"> */}
-               {/* <div className="menu" onClick={handleClick}>
-                    <div className='lines'></div>
-                    <div className='lines'></div>
-                    <div className='lines'></div>
-               </div> */}
-               {/* <img src={youtube} alt="logo" className='logo' />
-
-                    <form action="" method="post" id='search-bar'>
-                         <input type="search" name="" id="" placeholder='Search' required/>
-                         <button type='submit' className='submit-btn'> <img src={search} alt="" className='submit-logo'/>  </button>
-                    </form>
-
-
-               </div>
-                         <div className="items">
-                              <div className="for-user">
-                                   <img src={upload} alt="" id='camera' />
-                              </div>
-                              <div className="for-user" >
-                                   <img src={notification} id='notification' alt="" />
-                              </div>
-                              <div className="for-user" >
-                                   <img src={profile} id='profile' alt="" />
-                              </div>
-                          </div>  */} 
 
                     <br /><br />
                     
-               {/* <div className={nav ? 'show_menu' : 'hide_menu' }>
-                    <div className="main-menu">
-                         <div className="menu-list">
-                              <img src={home} className='icons' alt="" />
-                              <span> Home </span>
-                         </div>
-                         <div className="menu-list">
-                              <img src={shorts} className='icons' alt="" />
-                              <span> Shorts </span>
-                         </div>
-                         <div className="menu-list">
-                              <img src={subscription} className='icons' alt="" />
-                              <span> Subs </span>
-                         </div>
-                         <div className="menu-list">
-                              <img src={you} className='icons' alt="" />
-                              <span> You </span>
-                         </div>
-                    </div>
-               </div> */}
-                                                                                {/* Conding for menu ends */}
-               
                                                                                 {/* Conding for Main Content Page starts */}
                <div className="content-container">
                   <Video  src={one} CIcon={akatsuki} poster={akatsuki} />
