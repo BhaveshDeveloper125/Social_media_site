@@ -42,6 +42,13 @@ function UserChannel()
             </li>
           </ul>
         </div>
+
+
+        <div className="channel-menu">
+          <a href="">Home</a>
+          <a href="">Videos</a>
+          <a href="">PlayLists</a>
+        </div>
       </div>
     </div>
   )
