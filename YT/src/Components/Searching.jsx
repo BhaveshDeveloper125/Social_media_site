@@ -24,6 +24,7 @@ function Searching()
      }
   return (
     <div>
+     <br />
      <div className="top-line">
           <div className="three-line-menu" onClick={handleClick}>
                <div className="three-lines"></div>

@@ -1,6 +1,12 @@
-import React from 'react'
+import React, { Component, useState } from 'react'
 import './Style/UserChannel.css'
+import { Link } from 'react-router-dom'
+
+
 import Searching from './Searching'
+import Home from './ChannelOwner/Homes'
+import Videos from './ChannelOwner/Videos'
+import PlayLists from './ChannelOwner/PlayLists'
 
 // importing Images
 import img from './Images/rengoku.jpg'
@@ -8,10 +14,18 @@ import rengoku_basic from './Images/rengoku_basic.jpg'
 
 // Importing Icons
 import verify from './Icons/verify.png'
+import search from './Icons/transparency.png'
 
 
 function UserChannel() 
 {
+  const [activeComponent , setactiveComponent] = useState(<Home/>);
+  const [ChannelNav , setChannelNav]  =useState(true);
+
+  const handleNavigation = (Component)=>{
+    setactiveComponent(<Component/>)
+  }
+
   return (
     <div>
       <Searching />
@@ -43,13 +57,23 @@ function UserChannel()
           </ul>
         </div>
 
-
         <div className="channel-menu">
-          <a href="">Home</a>
-          <a href="">Videos</a>
-          <a href="">PlayLists</a>
+          <h2 onClick={() => handleNavigation(Home)}>Home</h2>
+          <h2 onClick={() => handleNavigation(Videos)}>Videos</h2>
+          <h2 onClick={() => handleNavigation(PlayLists)}>PlayLists</h2>
+          <img src={search} alt="search icon" className='channel-search' />
+          <form action="" className='channel-search-form'>
+            <input type="search" name="" id="search-form"  />
+          </form>
         </div>
-      </div>
+
+        <br />
+
+        <div className="channel-video">
+          {activeComponent}
+        </div>
+
+        </div>
     </div>
   )
 }

@@ -16,7 +16,7 @@
      width: 1300px;
      border-radius: 20px;
      /* background-color: black; */
-     border: 1px solid black;
+     /* border: 1px solid black; */
      margin-left: 100px;
      display: flex;
 }
@@ -152,7 +152,132 @@
 {
      height: 40px;
      width: 1300px;
-     background-color: black;
+     /* border: 1px solid black; */
+     /* background-color: black; */
+     /* color: white; */
      margin-left: 100px;
      margin-top: 10px;
+     display: flex;
+}
+
+
+.channel-menu h2
+{
+     height: fit-content;
+     width: fit-content;
+     color: gray;
+     border-bottom: 1px solid gray;
+     /* background-color: blue; */
+     position: relative;
+     top: -12px;
+     margin-left: 7px;
+     &:hover
+     {
+          cursor: pointer;
+          color: black;
+          border-bottom: 1px solid black;
+     }
+}
+
+
+.channel-search
+{
+     height: 40px;
+     width: 40px;
+     border-radius: 35%;
+     object-fit: cover;
+     margin-left: 15px;
+     position: relative;
+     top: 2px;
+     &:active
+     {
+          background-color: gray;
+     }
+}
+
+
+.channel-search-form
+{
+     height: 40px;
+     width: 230px;
+     /* border-bottom: 1px solid black; */
+     background-color: black;
+     margin-left: 10px;
+}
+
+
+#search-form
+{
+     height: 40px;
+     width: 230px;
+     border: none;
+     outline: none;
+     border-bottom: 1px solid black;
+}
+
+/* CSS for Videos.jsx from Channelowner folder files */
+.channel-home
+{
+     height: fit-content;
+     width: 84%;
+     /* background-color: purple; */
+     margin-left: 100px;
+     display: flex;
+     flex-wrap: wrap;
+     z-index: 0;
+ 
+}
+
+
+.channel-home .video-container
+{
+     height: 280px;
+     width: 300px;
+     /* background-color: red; */
+}
+
+
+.channel-home .videos
+{
+     height: 195px;
+     width: 300px;
+     border-radius: 10px;
+     object-fit: cover;
+}
+
+
+.sorting
+{
+     height: 35px;
+     width: 1300px;
+     /* background-color: pink; */
+     margin-left: 100px;
+     display: flex;
+}
+
+
+.latest , .popular , .oldest
+{
+     height: 100%;
+     width: 100px;
+     border-radius: 10px;
+     font-size: 20px;
+     font-weight: bolder;
+     background-color: rgb(228, 226, 226);
+     margin-left: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+     &:hover
+     {
+          cursor: pointer;
+          background-color: rgb(137, 135, 135);
+     }
+     
+     &:active
+     {
+          cursor: pointer;
+          background-color: rgb(228, 226, 226);
+     }
 }
