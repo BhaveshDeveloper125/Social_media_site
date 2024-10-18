@@ -215,7 +215,10 @@
      border-bottom: 1px solid black;
 }
 
+
 /* CSS for Videos.jsx from Channelowner folder files */
+
+
 .channel-home
 {
      height: fit-content;
@@ -280,4 +283,292 @@
           cursor: pointer;
           background-color: rgb(228, 226, 226);
      }
+}
+
+
+/* CSS for Playlist.jsx from Channelowner folder files */
+
+
+.play-title
+{
+     height: fit-content;
+     width: 1300px;
+     /* background-color: palevioletred; */
+     margin-left: 100px;
+}
+
+
+.playlist-container .videos
+{
+     width: 300px;
+}
+
+
+.playlist
+{
+     width: 1300px;
+     /* background-color: green; */
+     margin-left: 100px;
+     display: flex;
+     flex-wrap: wrap;
+}
+
+
+.playlist-container .video-container
+{
+     width: 300px;
+}
+
+
+.img-decoraters
+{
+     height: 15px;
+     width: 275px;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     /* background-color: red; */
+     object-fit: cover;
+     margin-left: 14px;
+     margin-bottom: -3px;
+     /* padding-bottom: 7px; */
+     filter: blur(2px);
+}
+
+
+.playlist .detail-container
+{
+     display: none;
+}
+
+
+.playlist-container
+{
+     height: fit-content;
+     width: fit-content;
+     /* background-color: red; */
+}
+
+
+/* CSS for Homes.jsx from Channelowner folder files */
+
+
+.for-you
+{
+     height: fit-content;
+     width: 1300px;
+     margin-left: 100px;
+     /* background-color: pink; */
+}
+
+
+.for-you-section
+{
+     height: 280px;
+     width: 1300px;
+     /* background-color: plum; */
+     margin-left: 100px;
+     display: flex;
+     overflow: hidden;
+}
+
+
+.after-for-you
+{
+     width: 1300px;
+     margin-left: 100px;
+}
+
+
+.back , .next
+{
+     height: 50px;
+     width: 50px;
+     border-radius: 50%;
+     position: relative;
+     top: -160px;
+     left: 75px;
+     cursor: pointer;
+}
+
+
+.next
+{
+     left: 1320px;
+}
+
+
+#left
+{
+    transform: rotate(180deg);
+}
+
+
+#right , #left
+{
+     height: 20px;
+     width: 24px;
+     object-fit: cover;
+}
+
+
+.shorts-title
+{
+     height: fit-content;
+     width: 1300px;
+     /* background-color: red; */
+     display: flex;
+     margin-left: 100px;
+}
+
+
+.shorts-title h3
+{
+     margin-left: 30px;
+}
+
+
+#shorts
+{
+     height: 50px;
+     width: 50px;
+     /* background-color: red; */
+     display: inline-block;
+}
+
+
+.shorts-container
+{
+     height: 350px;
+     width: 1300px;
+     background-color: palevioletred;
+     margin-left: 100px;
+}
+
+
+.my-videos
+{
+     height: 300px;
+     width: 1300px;
+     /* background-color: red; */
+     margin-left: 100px;
+}
+
+
+.my-videos-title
+{
+     height: fit-content;
+     width: 100%;
+     /* background-color: green; */
+}
+
+
+.my-video-container
+{
+     display: flex;
+     overflow: hidden;
+     display: flex;
+}
+
+
+.my-video-container .detail-container
+{
+     display: none;
+}
+
+
+#back , #next
+{
+     height: 50px;
+     width: 50px;
+     border-radius: 50%;
+     position: relative;
+     top: -250px;
+     left: -20px;
+}
+
+
+#next
+{
+     left: 1230px;
+}
+
+
+.popular-container
+{
+     height: 300px;
+     width: 1300px;
+     /* background-color: purple; */
+     margin-left: 100px;
+}
+
+
+.popular-title
+{
+     /* background-color: red; */
+}
+
+
+.popular-videos
+{
+     height: fit-content;
+     /* background-color: pink; */
+     display: flex;
+     overflow: hidden;
+}
+
+
+.popular-videos .detail-container
+{
+     display: none;
+}
+
+
+.pupular-video .video-container
+{
+     height: 145px;
+}
+
+
+#p , #n
+{
+     height: 50px;
+     width: 50px;
+     border-radius: 50%;
+     position: relative;
+     top: -180px;
+     left: 80px;
+}
+
+
+#n
+{
+     left: 1325px;
+}
+
+
+#back-arrow , #next-arrow
+{
+     height: 20px;
+     width: 24px;
+     object-fit: cover;
+}
+
+
+#back-arrow
+{
+     transform: rotate(180deg);
+}
+
+
+#p-arrow , #n-arrow
+{
+     height: 20px;
+     width: 24px;
+     object-fit: cover;
+}
+
+
+#p-arrow
+{
+     transform: rotate(180deg);
 }
