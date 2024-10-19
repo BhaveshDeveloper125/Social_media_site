@@ -1,0 +1,52 @@
+.subscription-video-container
+{
+     height: fit-content;
+     width: 100%;
+     /* background-color: purple; */
+     position: absolute;
+     top: 100px;
+     display: flex;
+     flex-wrap: wrap;
+}
+
+
+#subscription-shorts
+{
+     height: 45px;
+     width: 45px;
+     border-radius: 50%;
+}
+
+
+.shorts-seaction
+{
+     background-color: pink;
+}
+
+
+.short-title
+{
+     /* background-color: red; */
+     display: flex;
+}
+
+
+.subscription-shorts-container
+{
+     height: 500px;
+     width: 1515px;
+     /* background-color: cornsilk; */
+     margin-left: 0px;
+}
+
+
+.subscription-video-container2
+{
+     height: fit-content;
+     width: 100%;
+     /* background-color: purple; */
+     position: relative;
+     top: 0;
+     display: flex;
+     flex-wrap: wrap;
+}

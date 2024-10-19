@@ -1,11 +1,13 @@
 import React, { useState } from 'react'
 import './Style/Searching.css'
+import { Link } from 'react-router-dom'
 // importing Icons
 import youtube from './Icons/Logo_of_YouTube.svg.png'
 import search from './Icons/search.png'
 import upload from './Icons/upload.png'
 import notification from './Icons/notification.png'
 import profile from './Icons/profile.png'
+import History from './Icons/history.png'
 
 // importing Images
 import home from './Icons/home.png'
@@ -25,6 +27,7 @@ function Searching()
   return (
     <div>
      <br />
+     
      <div className="top-line">
           <div className="three-line-menu" onClick={handleClick}>
                <div className="three-lines"></div>
@@ -54,12 +57,15 @@ function Searching()
                </div>
           </div>
      </div>
+
      <div className={ show ? 'showing' : 'hide'}>
                <ul className='menu-view'>
                     <div className="li-tag">
                          <li className='li-tag'>
-                              <img src={home} id='homeIcon' alt="home icon" />
-                              <h3  className='menu-title'>Home</h3>
+                              <Link to='/'>
+                                   <img src={home} id='homeIcon' alt="home icon" />
+                                   <h3  className='menu-title'>Home</h3>
+                              </Link>
                          </li>
                     </div>
                     <br />
@@ -72,21 +78,32 @@ function Searching()
                     <br />
                     <div className="li-tag">
                          <li className='li-tag'>
-                              <img src={subscription} id='subscriptionIcon' alt="Subscription" />
-                              <h3  className='menu-title'>Subscription</h3>
+                              <Link to='/subscription'>
+                                   <img src={subscription} id='subscriptionIcon' alt="Subscription" />
+                                   <h3  className='menu-title'>Subscription</h3>
+                              </Link>
                          </li>
                     </div>
                     <br />
                     <hr />
                     <div className="li-tag">
                          <li className='li-tag'>
-                              <img src={you} id='youIcon' alt="You" />
-                              <h3  className='menu-title'>You</h3>
+                              <Link to='you'>
+                                   <img src={you} id='youIcon' alt="You" />
+                                   <h3  className='menu-title'>You</h3>
+                              </Link>
+                         </li>
+                    </div>
+                    <br />
+                    <div className="li-tag">
+                         <li className='li-tag'>
+                              <img src={History} id='history' alt="history icon" />
+                              <h3  className='menu-title'>History</h3>
                          </li>
                     </div>
                     <br />
                </ul>
-          </div>
+     </div>
     </div>
   )
 }

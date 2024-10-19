@@ -502,10 +502,10 @@
 }
 
 
-.popular-title
+/* .popular-title
 {
-     /* background-color: red; */
-}
+     background-color: red;
+} */
 
 
 .popular-videos
@@ -571,4 +571,74 @@
 #p-arrow
 {
      transform: rotate(180deg);
+}
+
+
+.more
+{
+     cursor: pointer;
+}
+
+
+.modal-hide
+{
+     height: 450px;
+     width: 300px;
+     background-color: white;
+     border: 1px solid black;
+     margin-left: 100px;
+     position: absolute;
+     top: 0px;
+     left: 550px;
+     display: none;
+}
+
+
+.modal-show
+{
+     height: 450px;
+     width: 300px;
+     background-color: white;
+     border: 1px solid black;
+     margin-left: 100px;
+     position: absolute;
+     top: 0px;
+     left: 550px;
+     display: block;
+}
+
+
+.cross
+{
+     height: fit-content;
+     width: fit-content;
+     /* border: 1px solid black; */
+     margin-left: 270px;
+     margin-top: 5px;
+     /* background-color: black; */
+     &:hover
+     {
+          cursor: pointer;
+     }
+}
+
+
+.about-modal , .description-modal , .links , .link-modal
+{
+     margin-left: 30px;
+}
+
+
+.description-modal
+{
+     height: 20px;
+     width: 100%;
+     /* background-color: red; */
+}
+
+
+#subs , #play , #growth , #info , #cancel
+{
+     height: 25px;
+     width: 25px;
 }

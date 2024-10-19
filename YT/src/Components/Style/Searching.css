@@ -166,58 +166,12 @@ li
 }
 
 
-#upload
-{
-     height: 50px;
-     width: 50px;
-}
-
-
-#notify
-{
-     height: 50px;
-     width: 50px;
-}
-
-
-#prof
-{
-     height: 50px;
-     width: 50px;
-}
-
-
-#homeIcon
+#upload , #youIcon , #subscriptionIcon , #shortsIcon , #homeIcon , #prof , #notify , #history
 {
      height: 50px;
      width: 50px;
      /* margin-left: -40px; */
 }
-
-
-#shortsIcon
-{
-     height: 50px;
-     width: 50px;
-     /* margin-left: -40px; */
-}
-
-
-#subscriptionIcon
-{
-     height: 50px;
-     width: 50px;
-     /* margin-left: -40px; */
-}
-
-
-#youIcon
-{
-     height: 50px;
-     width: 50px;
-     /* margin-left: -40px; */
-}
-
 
 
 input[type='search']

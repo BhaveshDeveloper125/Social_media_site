@@ -4,30 +4,28 @@ import App from './App.jsx'
 import './index.css'
 import UserChannel from './Components/UserChannel.jsx'
 import { createBrowserRouter , RouterProvider } from 'react-router-dom'
-import Home from './Components/ChannelOwner/Homes.jsx'
+import Subscription from './Components/Subscription.jsx'
+import Home from './Components/Home.jsx'
 import Videos from './Components/ChannelOwner/Videos.jsx'
 import PlayLists from './Components/ChannelOwner/PlayLists.jsx'
+import You from './Components/You.jsx'
 
 const router = createBrowserRouter([
   {
     path:"/",
-    element:<> <App /> </>
+    element:<> <Home /> </>
   },
   {
     path:"/userchannel",
     element:<> <UserChannel /> </>
   },
   {
-    path:"/channel-owner-home",
-    element:<> <Home /> </>
+    path:"/subscription",
+    element:<> <Subscription /> </>
   },
   {
-    path:"/channel-owner-video",
-    element:<> <Videos /> </>
-  },
-  {
-    path:"/channel-owner-playlists",
-    element:<> <PlayLists /> </>
+    path:"/you",
+    element:<> <You /> </>
   },
 ])
 
