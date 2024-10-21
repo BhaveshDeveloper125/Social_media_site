@@ -6,10 +6,11 @@ li
 {
      height: 60px;
      width: 100%;
-     background-color: purple;
+     /* background-color: purple; */
      display: flex;
      position: sticky;
-     top: 2px;
+     top: 0px;
+     left: 0px;
      z-index: 999;
 }
 

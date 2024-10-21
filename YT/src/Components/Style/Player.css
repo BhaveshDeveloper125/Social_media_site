@@ -5,6 +5,7 @@
      /* background-color: pink; */
      position: absolute;
      top: 100px;
+     z-index: 0;
 }
 
 
@@ -67,6 +68,11 @@
      height: fit-content;
      width: 30%;
      /* background-color: greenyellow; */
+}
+
+.spliter2 .video-container
+{
+     margin-left: 50px;
 }
 
 

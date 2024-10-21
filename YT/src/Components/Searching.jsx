@@ -91,7 +91,7 @@ function Searching()
                     <hr />
                     <div className="li-tag">
                          <li className='li-tag'>
-                              <Link to='you'>
+                              <Link to='/you'>
                                    <img src={you} id='youIcon' alt="You" />
                                    <h3  className='menu-title'>You</h3>
                               </Link>
@@ -100,7 +100,7 @@ function Searching()
                     <br />
                     <div className="li-tag">
                          <li className='li-tag'>
-                              <Link to='history'>
+                              <Link to='/history'>
                                    <img src={History} id='history' alt="history icon" />
                                    <h3  className='menu-title'>History</h3>
                               </Link>
@@ -109,7 +109,7 @@ function Searching()
                     <br />
                     <div className="li-tag">
                          <li className='li-tag'>
-                              <Link to='playlist'>
+                              <Link to='/playlist'>
                                    <img src={playlist} id='history' alt="history icon" />
                                    <h3  className='menu-title'>Playlist</h3>
                               </Link>
@@ -122,7 +122,7 @@ function Searching()
 
                     <div className="li-tag">
                          <li className='li-tag'>
-                              <Link to='userchannel'>
+                              <Link to='/userchannel'>
                                    <img src={rengoku_basic} id='channel-owner-icon' alt="history icon" />
                                    <h3  className='menu-title'>The Valley of Music</h3>
                               </Link>
