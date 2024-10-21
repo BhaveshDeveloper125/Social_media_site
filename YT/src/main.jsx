@@ -9,6 +9,9 @@ import Home from './Components/Home.jsx'
 import Videos from './Components/ChannelOwner/Videos.jsx'
 import PlayLists from './Components/ChannelOwner/PlayLists.jsx'
 import You from './Components/You.jsx'
+import History from './Components/History.jsx'
+import Playlist from './Components/Playlist.jsx'
+import Player from './Components/Player.jsx'//Delete this later
 
 const router = createBrowserRouter([
   {
@@ -26,6 +29,22 @@ const router = createBrowserRouter([
   {
     path:"/you",
     element:<> <You /> </>
+  },
+  {
+    path:"/history",
+    element:<> <History /> </>
+  },
+  {
+    path:"/playlist",
+    element:<> <Playlist /> </>
+  },
+  {
+    path:"/userchannel",
+    element:<> <UserChannel /> </>
+  },
+  {
+    path:"/player",
+    element:<> <Player /> </>
   },
 ])
 

@@ -1,0 +1,285 @@
+.video-player-container
+{
+     height: fit-content;
+     width: 100%;
+     /* background-color: pink; */
+     position: absolute;
+     top: 100px;
+}
+
+
+.video-container-viewer
+{
+     height: 500px;
+     width: 100%;
+     /* background-color: purple; */
+     margin-left: 0;
+}
+
+
+.video-container-viewer .video-container 
+{
+     height: 100%;
+     width: 100%;
+     /* background-color: black; */
+     margin-left: 0px;
+     margin-bottom: 50px;
+     /* border: 1px solid red; */
+}
+
+
+.video-container-viewer .detail-container
+{
+     display: none;
+}
+
+
+.video-container-viewer .videos 
+{
+     height: 100%;
+     width: 100%;
+     border-radius: 10px;
+     object-fit: cover;
+     margin-left: 0;
+}
+
+
+.spliter
+{
+     height: fit-content;
+     width: 100%;
+     /* background-color: green; */
+     margin-top: -35px;
+     display: flex;
+}
+
+
+.spliter1
+{
+     height: fit-content;
+     width: 70%;
+     /* background-color: lightblue; */
+}
+
+
+.spliter2
+{
+     height: fit-content;
+     width: 30%;
+     /* background-color: greenyellow; */
+}
+
+
+.video-title-on-player
+{
+     height: fit-content;
+     width: 90%;
+     /* background-color: red; */
+     margin: 10px;
+}
+
+
+.channel-activity
+{
+     width: 97%;
+     /* background-color: pink; */
+     margin: 10px;
+     display: flex;
+}
+
+
+.player-video-detail-container
+{
+     height: 80px;
+     width: 30%;
+     /* background-color: red; */
+     margin-left: 10px;
+}
+
+
+#player-logo
+{
+     height: 80px;
+     width: 80px;
+     border-radius: 50%;
+     object-fit: cover;
+}
+
+
+#player-channel-name
+{
+     position: relative;
+     top: -20px;
+}
+
+
+#Player-channel-subs
+{
+     color: gray;
+     position: relative;
+     top: -35px;
+}
+
+
+.player-sub-button-container
+{
+     height: 80px;
+     width: 140px;
+     /* background-color: lightgrey; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+
+.player-sub-button-container button
+{
+     height: 45px;
+     width: 120px;
+     background-color: black;
+     color: whitesmoke;
+     border-radius: 10px;
+     border: none;
+     transition-duration: 0.5s;
+
+     &:hover
+     {
+          cursor: pointer;
+          background-color: rgba(225, 223, 223, 0.485);
+          color: black;
+     }
+}
+
+.player-like-share
+{
+     height: 80px;
+     width: 510px;
+     /* background-color: lightseagreen; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.player-like-share button
+{
+     height: 70px;
+     width: 70px;
+     border: none;
+     margin: 30px;
+     border-radius: 20px;
+}
+
+#like , #dislike
+{
+     height: 70%;
+     width: 80%;
+     object-fit: cover;
+}
+
+
+.user-video-description-contract
+{
+     height: 80px;
+     width: 90%;
+     border-radius: 10px;
+     background-color: rgba(204, 204, 204, 0.679);
+     margin: 10px;
+
+
+}
+
+
+.user-video-description-expand
+{
+     height: fit-content;
+     width: 90%;
+     border-radius: 10px;
+     background-color: rgba(204, 204, 204, 0.679);
+     margin: 10px;
+
+
+}
+
+#more
+{
+     &:hover
+     {
+          cursor: pointer;
+     }
+}
+
+.view-time span
+{
+     margin-left: 10px;
+
+     &:active
+     {
+          border-radius: 7px;
+          background-color: rgba(0, 0, 0, 0.523);
+     }
+}
+
+.view-time span strong
+{
+     font-size: 1rem;
+}
+
+.comments-container
+{
+     height: fit-content;
+     width: 90%;
+     /* background-color: palevioletred; */
+     margin: 10px;
+}
+
+.add-comment-form
+{
+     height: fit-content;
+     width: 100%;
+     /* background-color: palegoldenrod; */
+}
+
+#comment-field
+{
+     height: 50px;
+     width: 100%;
+     background-color: transparent;
+     border: none;
+     outline: none;
+     border-bottom: 1px solid gray;
+     /* border-radius: 30px; */
+     position: relative;
+     top: 20px;
+}
+
+#comment , #cancel
+{
+     height: 45px;
+     width: 90px;
+     border: none;
+     outline: none;
+     border-radius: 30px;
+     box-shadow: 0px 5px 10px black;
+
+     &:hover
+     {
+          cursor: pointer;
+     }
+
+     &:active
+     {
+          box-shadow: 0px 0px 0px ;
+     }
+}
+
+#comment
+{
+     background-color: #2252ffb8;
+     color: aliceblue;
+     font-size: 1rem;
+}
+
+#cancel
+{
+     margin-left: 10px;
+}

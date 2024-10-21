@@ -81,7 +81,6 @@ function UserChannel()
           {activeComponent}
         </div>
 
-
         <div className={modal ? 'modal-show' : 'modal-hide'}>
 
           <div className="cross" onClick={()=> setmodal(!modal)} > <img src={cancel} id='cancel' /> </div>

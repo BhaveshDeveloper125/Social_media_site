@@ -1,0 +1,266 @@
+.you-container
+{
+     height: fit-content;
+     width: 100%;
+     /* background-color: pink; */
+     position: absolute;
+     top: 0;
+     z-index: 0;
+}
+
+
+.data-container
+{
+     height: fit-content;
+     width: 1300px;
+     /* border: 1px solid black; */
+     /* background-color: black; */
+     margin-left: 100px;
+     display: flex;
+}
+
+
+#user-img
+{
+     height: 200px;
+     width: 200px;
+     border-radius: 50%;
+     object-fit: cover;
+}
+
+
+.user-extra-details
+{
+     height: 100%;
+     width: 1030px;
+     /* background-color: red; */
+     position: relative;
+     top: -16px;
+}
+
+
+.user-details-in-span
+{
+     color: gray;
+}
+
+
+.user-history
+{
+     height: fit-content;
+     width: 1300px;
+     /* background-color: purple; */
+     margin-left: 100px;
+     display: flex;
+     overflow-x: auto;
+}
+
+
+.user-history::-webkit-scrollbar
+{
+     display: none;
+}
+
+
+.you-history-title
+{
+     height: fit-content;
+     width: 1300px;
+     /* background-color: pink; */
+     margin-left: 100px;
+     display: flex;
+}
+
+
+.view-all
+{
+     height: 40px;
+     width: 80px;
+     background-color: #cccccc;
+     border: none;
+     border-radius: 10px;
+     margin-left: 1111px;
+     margin-top: 20px;
+     transition-duration: 0.5s;
+     &:hover
+     {
+          cursor: pointer;
+          background-color: black;
+          color: whitesmoke;
+     }
+}
+
+
+.prev , .nex
+{
+     height: 50px;
+     width: 50px;
+     display: inline-block;
+     /* background-color: red; */
+     position: relative;
+     top: -250px;
+     left: 70px;
+     border-radius: 50%;
+}
+
+
+.nex
+{
+     left: 1330px;
+}
+
+
+#prev-img , #nex-img
+{
+     height: 70%;
+     width: 90%;
+     object-fit: cover;
+}
+
+
+#prev-img
+{
+     transform: rotate(180deg);
+}
+
+
+.play-list-title
+{
+     height: fit-content;
+     width: 1300px;
+     /* background-color: peru; */
+     margin-left: 100px;
+     display: flex;
+}
+
+
+.play-list-title button
+{
+    height: 40px;
+    width: 80px;
+    background-color: #cccccc;
+    border: none;
+    border-radius: 10px;
+    margin-left: 1115px;
+    margin-top: 20px;
+    transition-duration: 0.5s;
+
+    &:hover
+    {
+     cursor: pointer;
+     background-color: black;
+     color: whitesmoke;
+    }
+}
+
+
+.play-lists
+{
+     height: fit-content;
+     width: 1300px;
+     /* background-color: purple; */
+     margin-left: 100px;
+     display: flex;
+     overflow-x: auto;
+     overflow-y: hidden;
+}
+
+
+.play-lists::-webkit-scrollbar
+{
+     display: none;
+}
+
+
+.watch-later-title
+{
+     height: fit-content;
+     width: 1300px;
+     margin-left: 100px;
+     /* background-color: red; */
+     display: flex;
+}
+
+
+.watch-later-title button
+{
+     height: 40px;
+     width: 80px;
+     background-color: #cccccc;
+     border: none;
+     border-radius: 10px;
+     margin-left: 1045px;
+     margin-top: 20px;
+     transition-duration: 0.5s;
+ 
+     &:hover
+     {
+      cursor: pointer;
+      background-color: black;
+      color: whitesmoke;
+     }
+}
+
+
+.watch-later
+{
+     height: fit-content;
+     width: 1300px;
+     /* background-color: red; */
+     margin-left: 100px;
+     display: flex;
+     overflow-x: auto;
+}
+
+
+.watch-later::-webkit-scrollbar
+{
+     display: none;
+}
+
+
+.liked-videos-title
+{
+     height: fit-content;
+     width: 1300px;
+     margin-left: 100px;
+     /* background-color: red; */
+     display: flex;
+}
+
+
+.liked-videos-title button
+{
+     height: 40px;
+     width: 80px;
+     background-color: #cccccc;
+     border: none;
+     border-radius: 10px;
+     margin-left: 1035px;
+     margin-top: 20px;
+     transition-duration: 0.5s;
+ 
+     &:hover
+     {
+      cursor: pointer;
+      background-color: black;
+      color: whitesmoke;
+     }
+}
+
+
+.liked-videos
+{
+     height: fit-content;
+     width: 1300px;
+     /* background-color: purple; */
+     margin-left: 100px;
+     display: flex;
+     overflow-x: auto;
+}
+
+
+.liked-videos::-webkit-scrollbar
+{
+     display: none;
+}

@@ -6,11 +6,11 @@ function Video(prop)
 {
   return (
     <div className='video-container'>
+      <div className={prop.isplaylist == 'true' ? 'play-list-bg' : 'play-list-bg-display-none'}> <img src={prop.poster} id='play-list-img' /> </div>
       <video controls className='videos' poster={prop.poster} >
         <source src={prop.src} type='video/mp4' />
       </video>
       <br /> 
-
 
       <div className="detail-container">
         <div className="logo-container">

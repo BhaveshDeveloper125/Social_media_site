@@ -6,7 +6,11 @@ li
 {
      height: 60px;
      width: 100%;
+     background-color: purple;
      display: flex;
+     position: sticky;
+     top: 2px;
+     z-index: 999;
 }
 
 
@@ -166,11 +170,17 @@ li
 }
 
 
-#upload , #youIcon , #subscriptionIcon , #shortsIcon , #homeIcon , #prof , #notify , #history
+#upload , #youIcon , #subscriptionIcon , #shortsIcon , #homeIcon , #prof , #notify , #history , #channel-owner-icon
 {
      height: 50px;
      width: 50px;
+     object-fit: cover;
      /* margin-left: -40px; */
+}
+
+#channel-owner-icon
+{
+     border-radius: 50%;
 }
 
 

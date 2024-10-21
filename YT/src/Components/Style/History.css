@@ -1,0 +1,114 @@
+.history-box-container
+{
+     height: 700px;
+     width: 100%;
+     /* background-color: cyan; */
+     position: absolute;
+     top: 100px;
+     /* left: 10%; */
+     display: flex;
+     z-index: 0;
+}
+
+
+.history-box
+{
+     height:100%;
+     width: 50%;
+     /* background-color: pink; */
+     overflow-y: auto;
+}
+
+
+.history-box::-webkit-scrollbar
+{
+     display: none;
+}
+
+
+.history-box-container .detail-container 
+{
+     height: 120px;
+     width: 360px;
+     /* background-color: red; */
+     display: flex;
+     position: relative;
+     top: -165px;
+     left: 378px;
+}
+
+
+.history-box-container .video-container 
+{
+     height: 280px;
+     width: 375px;
+     /* background-color: black; */
+     margin-left: 4px;
+     margin-bottom: -70px;
+     /* border: 1px solid red; */
+}
+
+
+.clear-watch-history 
+{
+     height: 100%;
+     width: 40%;
+     /* background-color: red; */
+     margin-left: 10%;
+     display: flex;
+}
+
+.clear-watch-history-elements
+{
+     height: fit-content;
+     width: 50%;
+     display: flex;
+     transition-duration: 0.5s;
+     
+     &:hover
+     {
+          cursor: pointer;
+          background-color: darkgrey;
+     }
+}
+
+
+.clear-watch-history h1
+{
+     position: relative;
+     top: -15px;
+     left: 10px;
+}
+
+
+#delete
+{
+     height: 50px;
+     width: 50px;
+     /* background-color: purple; */
+}
+
+
+.pause-history
+{
+     height: fit-content;
+     width: 50%;
+     /* background-color: coral; */
+     display: flex;
+     position: relative;
+     top: 0;
+     /* left: 20px; */
+
+     &:hover
+     {
+          cursor: pointer;
+          background-color: darkgrey;
+     }
+}
+
+
+#pause
+{
+     height: 50px;
+     width: 50px;
+}
