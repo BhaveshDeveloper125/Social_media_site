@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
 import UserChannel from './Components/UserChannel.jsx'
 import { createBrowserRouter , RouterProvider } from 'react-router-dom'
+import App from './App.jsx'
 import Subscription from './Components/Subscription.jsx'
 import Home from './Components/Home.jsx'
 import Videos from './Components/ChannelOwner/Videos.jsx'
@@ -45,6 +45,10 @@ const router = createBrowserRouter([
   {
     path:"/player",
     element:<> <Player /> </>
+  },
+  {
+    path:"/app",
+    element:<> <App /> </>
   },
 ])
 
