@@ -130,6 +130,7 @@ function Searching()
                     </div>
                </ul>
      </div>
+     
     </div>
   )
 }
