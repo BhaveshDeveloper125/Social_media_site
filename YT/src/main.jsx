@@ -13,6 +13,7 @@ import History from './Components/History.jsx'
 import Playlist from './Components/Playlist.jsx'
 import Player from './Components/Player.jsx'//Delete this later
 
+
 const router = createBrowserRouter([
   {
     path:"/",
